@@ -1,0 +1,50 @@
+name: project_secret
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.2
+  shared_preferences: ^2.3.5
+  cloud_functions: ^5.3.0
+  cloud_firestore: ^5.6.1
+  google_sign_in: ^6.2.2
+
+  permission_handler: ^11.3.1
+  flutter_ota: ^0.1.15
+  dio: ^5.7.0
+  open_file: ^3.5.10
+  firebase_remote_config: ^5.3.0
+  path_provider: ^2.1.5
+  flutter_local_notifications: ^18.0.1
+  url_launcher: ^6.3.1
+  package_info_plus: ^8.1.2
+  pubspec: ^2.3.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/logo.png 
+flutter_icons: 
+android: true 
+ios: true 
+image_path: "assets/images/logo.png"
